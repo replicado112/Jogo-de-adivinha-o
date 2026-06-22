@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Adivinhe o Número 2.0</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="confete"></div>
+
+<div class="container">
+
+<h1>🎲 Adivinhe o Número</h1>
+
+<p id="descricao"></p>
+
+<select id="dificuldade">
+
+<option value="facil">
+
+🟢 Fácil (1 a 50)
+
+</option>
+
+<option value="medio" selected>
+
+🟡 Médio (1 a 100)
+
+</option>
+
+<option value="dificil">
+
+🔴 Difícil (1 a 500)
+
+</option>
+
+</select>
+
+<div class="barra">
+
+<div id="progresso"></div>
+
+</div>
+
+<p id="textoProgresso">
+
+0 / 5 acertos
+
+</p>
+
+<div id="cronometro">
+
+⏱️ 00:00
+
+</div>
+
+<div id="recorde">
+
+🏆 Recorde: 0
+
+</div>
+
+<div id="vidas"></div>
+
+<input
+
+id="numero"
+
+type="number"
+
+placeholder="Digite um número"
+
+>
+
+<div class="botoes">
+
+<button id="jogar">
+
+🎯 Jogar
+
+</button>
+
+<button id="reiniciar">
+
+🔄 Reiniciar
+
+</button>
+
+</div>
+
+<div id="intervalo"></div>
+
+<div id="mensagem"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
